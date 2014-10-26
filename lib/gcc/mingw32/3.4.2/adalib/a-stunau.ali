@@ -1,0 +1,83 @@
+V "GNAT Lib v3.4"
+A -g
+A -gnatp
+A -gnatg
+A -O2
+A -W
+A -Wall
+P SS
+R nnvvnnnvvnnnnnvnvnvvnvnnvnvnvnnnnnnnnvnnnnnnnvnnvnnnvvnn
+
+U ada.strings.unbounded.aux%b  a-stunau.adb	4b970a4b NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U ada.strings.unbounded.aux%s  a-stunau.ads	ada104a8 BN NE PR PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20040920114340 a0108083
+D a-charac.ads		20040920114346 a61fb5a9
+D a-chlat1.ads		20040920114346 06a18501
+D a-except.ads		20040920114348 a1717b33
+D a-finali.ads		20040920114348 d4be2e87
+D a-filico.ads		20040920114348 83058640
+D a-stream.ads		20040920114350 dbe6acb4
+D a-string.ads		20040920114350 6440c304
+D a-strmap.ads		20040920114350 e6fc9a3a
+D a-strunb.ads		20040920114350 6f145aec
+D a-stunau.ads		20040920114350 c2b55e44
+D a-stunau.adb		20040920114344 8922540f
+D a-tags.ads		20040920114352 8f0cfa9c
+D a-tags.adb		20040920114344 547ae7e1
+D system.ads		20040920114430 99654be1
+D s-exctab.ads		20040920114418 6637f07f
+D s-finimp.ads		20040920114418 ef65ab1e
+D s-finroo.ads		20040920114418 7e5e077b
+D s-htable.ads		20040920114418 af1a22d4
+D s-parame.ads		20040920114422 8479efe6
+D s-secsta.ads		20040920114422 7804722c
+D s-soflin.ads		20040920114422 14059e84
+D s-stache.ads		20040920114422 6135f334
+D s-stalib.ads		20040920114422 e7ad2af0
+D s-stoele.ads		20040920114422 5a73170b
+D s-stoele.adb		20040920114412 792079f8
+D s-stratt.ads		20040920114422 c1077a4d
+D s-traent.ads		20040920114424 e81a0978
+D s-unstyp.ads		20040920114424 0d291e44
+D unchconv.ads		20040920114340 1b7a14c5
+X 1 ada.ads
+16K9*Ada 19e8 11|39r9 70r5 12|34r14 95r5
+X 8 a-string.ads
+16K13*Strings 1|16k9 8|30e16 11|39r13 70r9 12|34r18 95r9
+X 10 a-strunb.ads
+41K21*Unbounded 8|16k13 10|395e26 11|39r21 70r17 12|34r26 95r17
+44R9*Unbounded_String 369e14 11|42r29 56r38 64r38 12|40r29 47r56 69r38 88r38
+50P9*String_Access(string) 11|42r54 64r60 12|40r54 55r19 77r19 88r60
+52U14*Free 12|59r13
+367p7*Reference{50P9} 12|42r21 43r19 55r38 58r19 58r46 60r22 72r13 82r16
+. 83r27 91r10 92r21
+368i7*Last{natural} 12|42r12 58r64 71r13 83r16 92r10
+384U14 Finalize 12|81r13 90r7
+X 11 a-stunau.ads
+39K31*Aux 10|41k21 11|40r22 70l27 70e30 12|34b36 95l27 95t30
+42V13*Get_String{10|50P9} 42>25 43r19 12|40b13 63l8 63t18
+42r25 U{10|44R9} 12|40b25 42r10 42r19 43r17 49r57 55r36 58r44 58r62 60r20
+56U14*Set_String 56=26 56>56 57r19 12|69b14 86l8 86t18
+56r26 UP{10|44R9} 12|69b26 71r10 72r10 81m23 82m13 83m13 83r24
+56s56 S{string} 12|69b56 71r20 72r30 76r46 80r42
+64U14*Set_String 64=26 64>56 12|88b14 93l8 93t18
+64r26 UP{10|44R9} 12|88b26 90m17 91m7 92m7 92r18
+64p56 S{10|50P9} 12|88b56 91r23
+X 12 a-stunau.adb
+47P18 Unbounded_String_Access(10|44R9) 49r30
+49p13 U_Ptr{47P18} 58m13
+55p13 Old{10|50P9} 59m19
+76A21 String_1{string} 80r32
+77p13 Tmp{10|50P9} 80m13 82r29
+
