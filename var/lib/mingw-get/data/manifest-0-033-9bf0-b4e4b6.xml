@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-033-9bf0-b4e4b6">
+    <release tarname="mpfr-3.1.2-2-mingw32-dev.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="include" />
+        <file path="include/mpf2mpfr.h" />
+        <file path="include/mpfr.h" />
+        <dir path="lib" />
+        <file path="lib/libmpfr.dll.a" />
+        <dir path="mingw32" />
+        <dir path="mingw32/include" />
+        <file path="mingw32/include/mpf2mpfr.h" />
+        <file path="mingw32/include/mpfr.h" />
+        <dir path="mingw32/lib" />
+        <file path="mingw32/lib/libmpfr.dll.a" />
+    </manifest>
+</package>

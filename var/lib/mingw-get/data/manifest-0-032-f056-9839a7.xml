@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-032-f056-9839a7">
+    <release tarname="mpc-1.0.1-2-mingw32-doc.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="share" />
+        <dir path="share/doc" />
+        <dir path="share/doc/mpc" />
+        <dir path="share/doc/mpc/1.0.1" />
+        <file path="share/doc/mpc/1.0.1/AUTHORS" />
+        <file path="share/doc/mpc/1.0.1/ChangeLog" />
+        <file path="share/doc/mpc/1.0.1/INSTALL" />
+        <file path="share/doc/mpc/1.0.1/NEWS" />
+        <file path="share/doc/mpc/1.0.1/README" />
+        <file path="share/doc/mpc/1.0.1/README.mpc-1.0.1-2-mingw32" />
+        <file path="share/doc/mpc/1.0.1/TODO" />
+    </manifest>
+</package>

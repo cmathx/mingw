@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-032-dde2-e15fb8">
+    <release tarname="gmp-5.1.2-1-mingw32-lic.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="share" />
+        <dir path="share/doc" />
+        <dir path="share/doc/gmp" />
+        <dir path="share/doc/gmp/5.1.2" />
+        <file path="share/doc/gmp/5.1.2/COPYING" />
+        <file path="share/doc/gmp/5.1.2/COPYING.LIB" />
+    </manifest>
+</package>

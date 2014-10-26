@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-041-6e72-02f12f">
+    <release tarname="pthreads-w32-2.9.1-1-mingw32-dev.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="include" />
+        <file path="include/pthread.h" />
+        <file path="include/sched.h" />
+        <file path="include/semaphore.h" />
+        <dir path="lib" />
+        <file path="lib/libpthread.a" />
+        <file path="lib/libpthread.dll.a" />
+        <file path="lib/libpthreadGC2.a" />
+        <file path="lib/libpthreadGC2.dll.a" />
+        <file path="lib/libpthreadGCE2.dll.a" />
+        <dir path="mingw32" />
+        <dir path="mingw32/include" />
+        <file path="mingw32/include/pthread.h" />
+        <file path="mingw32/include/sched.h" />
+        <file path="mingw32/include/semaphore.h" />
+        <dir path="mingw32/lib" />
+        <file path="mingw32/lib/libpthread.a" />
+        <file path="mingw32/lib/libpthread.dll.a" />
+        <file path="mingw32/lib/libpthreadGC2.a" />
+        <file path="mingw32/lib/libpthreadGC2.dll.a" />
+        <file path="mingw32/lib/libpthreadGCE2.dll.a" />
+    </manifest>
+</package>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-032-37be-878544">
+    <release tarname="gmp-5.1.2-1-mingw32-doc.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="share" />
+        <dir path="share/doc" />
+        <dir path="share/doc/gmp" />
+        <dir path="share/doc/gmp/5.1.2" />
+        <file path="share/doc/gmp/5.1.2/AUTHORS" />
+        <file path="share/doc/gmp/5.1.2/ChangeLog" />
+        <file path="share/doc/gmp/5.1.2/INSTALL" />
+        <file path="share/doc/gmp/5.1.2/INSTALL.autoconf" />
+        <file path="share/doc/gmp/5.1.2/NEWS" />
+        <file path="share/doc/gmp/5.1.2/README" />
+        <file path="share/doc/gmp/5.1.2/README.gmp-5.1.2-1-mingw32" />
+    </manifest>
+</package>

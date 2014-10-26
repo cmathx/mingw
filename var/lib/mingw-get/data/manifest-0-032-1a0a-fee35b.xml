@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-032-1a0a-fee35b">
+    <release tarname="mpc-1.0.1-2-mingw32-lic.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="share" />
+        <dir path="share/doc" />
+        <dir path="share/doc/mpc" />
+        <dir path="share/doc/mpc/1.0.1" />
+        <file path="share/doc/mpc/1.0.1/COPYING.LESSER" />
+    </manifest>
+</package>

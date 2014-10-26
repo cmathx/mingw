@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-035-a504-717db5">
+    <release tarname="mingwrt-3.20-2-mingw32-dev.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="bin" />
+        <dir path="doc" />
+        <dir path="doc/runtime" />
+        <file path="doc/runtime/CONTRIBUTORS" />
+        <file path="doc/runtime/DISCLAIMER" />
+        <file path="doc/runtime/README" />
+        <dir path="include" />
+        <file path="include/libgen.h" />
+        <dir path="include/sys" />
+        <dir path="lib" />
+        <file path="lib/libmingwthrd_old.a" />
+        <file path="lib/libmoldname100.a" />
+        <file path="lib/libmoldname100d.a" />
+        <file path="lib/libmoldname70.a" />
+        <file path="lib/libmoldname70d.a" />
+        <file path="lib/libmoldname71.a" />
+        <file path="lib/libmoldname71d.a" />
+        <file path="lib/libmoldname80.a" />
+        <file path="lib/libmoldname80d.a" />
+        <file path="lib/libmoldname90.a" />
+        <file path="lib/libmoldname90d.a" />
+        <file path="lib/libmsvcr100.a" />
+        <file path="lib/libmsvcr100d.a" />
+        <file path="lib/libmsvcr80.a" />
+        <file path="lib/libmsvcr80d.a" />
+        <file path="lib/libmsvcr90.a" />
+        <file path="lib/libmsvcr90d.a" />
+        <dir path="share" />
+        <dir path="share/man" />
+        <dir path="share/man/man3" />
+        <file path="share/man/man3/basename.3" />
+        <file path="share/man/man3/dirname.3" />
+    </manifest>
+</package>
